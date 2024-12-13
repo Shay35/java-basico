@@ -31,5 +31,7 @@ public class ContaTerminal {
 
         //Exibir a mensagem de confirmação
         System.out.println(String.format("\nOlá %s, obrigado por criar uma conta em nosso banco. Sua agência é %s, conta %d e seu saldo de R$%.2f já está disponível para saque.", nomeCliente, agencia, numero, saldo));
+
+        scanner.close();
     }
 }
